@@ -8,10 +8,5 @@ public class ej2_5 {
         System.out.print( "INTRODUZCA LOS GRADOS C: ");
         int numero = teclado.nextInt ();
         System.out.println( numero+" GRADOS C SON "+ (9*numero/5+32) +" GRADOS F" );
-
-
-
-
-
     }
 }
