@@ -11,8 +11,6 @@ public class ej5_10 {
     int min = teclado.nextInt();
     int minxh = 60;
     int mnoche = 24;
-    System.out.println("Faltan: " + (mnoche - hora) + "H y " + (minxh - min) + "M");
-
-    /// la hora con 23 no funciona revisar
+    System.out.println("Faltan: " + ((mnoche - 1) - hora) + "H y " + (minxh - min) + "M");
   }
 }
