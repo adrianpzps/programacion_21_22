@@ -10,14 +10,11 @@ public class ej8_5 {
     int r1 = teclado.nextInt();
     System.out.println("Inserte el rango maximo: ");
     int r2 = teclado.nextInt();
-    int rm = r1 + r2;
+    int rm;
 
     do {
       System.out.println("Introduzca un valor dentro del rango: ");
       rm = teclado.nextInt();
     } while (rm < r1 || rm > r2);
-
-
-
   }
 }

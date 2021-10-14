@@ -6,10 +6,10 @@ public class ej8_7 {
     int numero = 1;
     int var = 1;
 
-    while (numero < 10) {
+    while (numero < 20) {
       if (numero % 2 != 0) {
-      var = var * numero;
-      System.out.println(var);
+        var = var * numero;
+        System.out.println(var);
       }
       numero++;
     }
