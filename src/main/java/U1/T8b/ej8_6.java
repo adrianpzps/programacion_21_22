@@ -13,12 +13,13 @@ public class ej8_6 {
     System.out.println("Introduzca el caracter: ");
     String carac = teclado.next();
 
-    for (int i = 0; i <= altura; i++) {
-      for (int j = 0; j <= altura - i - 1; j++) {
-        System.out.print(" ");
-      }
-      for (int j = 0; j < (i * 2) - 1; j++) {
-        System.out.print(carac);
+    for (int i = 0; i < altura; i++) {
+      for (int j = 0; j < (altura * 2) - 1; j++) {
+        if (j == (altura - 1) - i || j == (altura - 1) + i || i == altura - 1) {
+          System.out.print(carac);
+        } else {
+          System.out.print(" ");
+        }
       }
       System.out.println();
     }

@@ -1,0 +1,22 @@
+package U1.T8b;
+
+import java.util.Scanner;
+
+public class ej8_7 {
+  public static void main(String[] args) {
+    Scanner teclado = new Scanner(System.in);
+
+    System.out.println("Introduzca un número: ");
+    int num = teclado.nextInt();
+    int cociente = num;
+    int resto = 0;
+    int rev = 0;
+
+    while (cociente > 0) {
+      resto = cociente % 10;
+      cociente = cociente / 10;
+      rev = (rev * 10) + resto;
+    }
+    System.out.println(rev);
+  }
+}
