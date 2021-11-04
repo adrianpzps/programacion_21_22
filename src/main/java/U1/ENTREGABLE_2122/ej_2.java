@@ -2,27 +2,47 @@ package U1.ENTREGABLE_2122;
 
 import java.util.Scanner;
 
-// ESPERO ESTAR MAS TRANQUILO EN EL SIGUIENTE, PORQUE SE HACERLOS.
+
 
 public class ej_2 {
   public static void main(String[] args) {
     Scanner teclado = new Scanner(System.in);
 
     System.out.print("Introduzca un número: ");
-    int numero = teclado.nextInt();
-    System.out.print("Introduzca un número: ");
+    int n = teclado.nextInt();
+    System.out.print("Introduzca un salto: ");
     int salto = teclado.nextInt();
 
-    int cociente = numero;
-    int resto;
-    int var = 0;
-    int var2 = 1;
+    while (salto < 0 || salto > 2) {
+      System.out.print("Introduzca un salto: ");
+      salto = teclado.nextInt();
+    }
+
+    int cociente = n;
+    int invertido = 0;
 
     while (cociente > 0) {
-      // if
-      resto = cociente % 10;
+      invertido = invertido * 10 + cociente % 10;
       cociente = cociente / 10;
-      var = (var * 10) + resto;
     }
+
+    cociente = invertido;
+    n = 0;
+
+    int a_saltar = 0;
+
+    while (cociente != 0) {
+      if (a_saltar == 0) {
+        n = n * 10 + cociente % 10;
+        cociente = cociente / 10;
+        a_saltar = salto;
+      } else {
+        cociente = cociente / 10;
+        a_saltar--;
+      }
+    }
+
+    System.out.println("Resultado = " + n);
+
   }
 }
