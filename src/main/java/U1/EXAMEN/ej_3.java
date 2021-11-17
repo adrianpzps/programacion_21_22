@@ -24,7 +24,7 @@ public class ej_3 {
 
     while (cociente > 0) {
       reverso = reverso * 10 + cociente % 10;
-      int ale = (int) (1000 + (Math.random() * 9999));
+      int ale = (int) (1000 + (Math.random() * 8999));
       System.out.println("La clave generada para " + cociente % 10 + " es: " + ale);
       System.out.print("La suma de las cifras totales es: ");
 
