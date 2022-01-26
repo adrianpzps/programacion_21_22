@@ -15,10 +15,18 @@ public class main {
     System.out.println("Para añadir al principio, introduzca principio, para añadir al final, introduzca final.");
     String posicion = sc.next();
 
-    System.out.println("Introduzca un caracter a añadir: ");
+    System.out.println("Introduzca un cadena a añadir: ");
     String add = sc.next();
 
-    c1.annadir(posicion, add);
+    c1.annadircad(posicion, add);
+
+    System.out.println("Para añadir al principio, introduzca principio, para añadir al final, introduzca final.");
+    posicion = sc.next();
+
+    System.out.println("Introduzca el caracter a añadir: ");
+    char car = sc.next().charAt(0);
+
+    c1.annadir2car(posicion, car);
 
     System.out.println("Para añadir al principio, introduzca principio, para añadir al final, introduzca final.");
     posicion = sc.next();
@@ -26,7 +34,7 @@ public class main {
     System.out.println("Introduzca una palabra: ");
     add = sc.next();
 
-    c1.annadir2(posicion, add);
+    c1.annadir2cad(posicion, add);
 
     c1.vocales();
 
