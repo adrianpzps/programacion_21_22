@@ -1,0 +1,6 @@
+NOMBRE: adrian
+EDAD: 31NOMBRE: antonio
+EDAD: 31NOMBRE: aj
+EDAD: 23
+NOMBRE: dsadsad
+EDAD: 43

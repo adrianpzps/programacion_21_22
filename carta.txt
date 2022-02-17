@@ -1,0 +1,18 @@
+Actividad1: Realizar un programa que solicite al usuario el nombre de un fichero de texto y muestre su contenido en pantalla. Si no se proporciona ningún nombre de fichero, la aplicación utilizará por defecto "prueba.txt".
+
+Actividad2: Diseñar una aplicación que pida al usuario su nombre y edad. Estos datos deben guardarse en el fichero "datos.txt". Si este fichero existe, debe borrarse su contenido, y en caso de no existir, debe crearse.
+
+Actividad3: Crear un programa que duplique el conenido de un fichero. Realizar dos versiones:
+
+Duplicaremos el fichero original.txt en uno que se llame copia.txt
+Pedir el nombre del fichero fuente y duplicarlo en un fichero con el mismo nombre con el prefijo "copia_de".
+
+Actividad4: Realizar un programa que lea un fichero de texto llamado carta.txt, tenemos que contar los caracteres, las líneas y las palabras. Para facilitar el procesamiento supondremos que cada palabra está separada de otra por un único espacio en blanco.
+
+Actividad5: En el archivo numeros.txt disponemos de una serie de números (uno por cada línea). Diseñar un programa que procese el fichero y nos muestre el menor y el mayor.
+
+Actividad6: Un libro de firmas es útil para recoger todas las personas que han pasado por un determinado lugar. Crear una aplicación que permita mostrar el libro de firmas o insertar un nuevo nombre (comprobando que no se encuentre repetido). Llamaremos al fichero firmas.txt.
+
+Actividad7: En LINUX disponemos de un comando "more", al que se le pasa un fichero y lo muestra poco a poco (cada 24 líneas). Implementar un programa que funcione de forma similar.
+
+Actividad8: Disponemos de dos ficheros perso1.txt y perso2.txt con nombres de personas (ambos ordenados). Realizar un programa que lea ambos ficheros y que cree un tercer fichero  (todos.txt) con todos los nombres ordenados alfabéticamente.
