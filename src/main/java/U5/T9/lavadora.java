@@ -8,6 +8,7 @@ public class lavadora extends electrodomestico implements Comparable {
     // de la clase padre
 
     public lavadora() {
+
         this.carga = 5;
     }
 
@@ -17,6 +18,7 @@ public class lavadora extends electrodomestico implements Comparable {
     }
 
     public lavadora(Integer carga) {
+
         this.carga = carga;
     }
 

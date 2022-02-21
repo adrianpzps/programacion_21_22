@@ -6,8 +6,6 @@ import java.util.Collections;
 public class main {
   public static void main(String[] args) {
 
-    lavadora[] array = new lavadora[6];
-
     lavadora lavadora1 = new lavadora();
 
     System.out.println(lavadora1);
@@ -31,6 +29,8 @@ public class main {
     lavadora lavadora6 = new lavadora(15);
 
     System.out.println(lavadora6);
+
+    lavadora[] array = new lavadora[6];
 
     array[0] = lavadora1;
     array[1] = lavadora2;
@@ -57,8 +57,35 @@ public class main {
 
     imprimir(array);
 
+    television t1 = new television(100, electrodomestico.enumColor.Blanco, electrodomestico.enumConsumoEnergetico.B,20.3,30,true);
+    television t2 = new television();
+    television t3 = new television(300, 25.5);
+    television t4 = new television(20, 5.3);
 
 
+    System.out.println("-------------------------------------------");
+
+    System.out.println();
+    System.out.println(t1);
+
+    electrodomestico[] Earray = new electrodomestico[10];
+
+    Earray[0] = lavadora1;
+    Earray[1] = lavadora2;
+    Earray[2] = lavadora3;
+    Earray[3] = lavadora4;
+    Earray[4] = lavadora5;
+    Earray[5] = lavadora6;
+    Earray[6] = t1;
+    Earray[7] = t2;
+    Earray[8] = t3;
+    Earray[9] = t4;
+
+    System.out.println("------------------------ ARRAY DE ELECTRODOMESTICOS ----------------------------");
+    System.out.println();
+    imprimir2(Earray);
+
+    System.out.println();
 
   }
 
@@ -66,6 +93,16 @@ public class main {
 
     for (lavadora l : array) {
       System.out.println(l);
+    }
+
+    System.out.println("------------------");
+
+  }
+
+  public static void imprimir2(electrodomestico[] Earray) {
+
+    for (electrodomestico e : Earray) {
+      System.out.println(e);
     }
 
     System.out.println("------------------");
