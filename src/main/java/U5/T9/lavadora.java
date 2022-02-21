@@ -1,10 +1,6 @@
 package U5.T9;
 
-public class lavadora extends electrodomestico {
-
-    public Integer getCarga() {
-        return carga;
-    }
+public class lavadora extends electrodomestico implements Comparable {
 
     protected Integer carga;
 
@@ -43,4 +39,20 @@ public class lavadora extends electrodomestico {
         }
         return super.getPrecioFinal();
     }
+
+    public Integer getCarga() {
+        return carga;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (!(o instanceof lavadora)) {
+            return 0;
+        }
+        lavadora that = (lavadora) o;
+        return this.carga - that.carga;
+    }
+
+
+
 }
