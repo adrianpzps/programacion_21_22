@@ -1,0 +1,14 @@
+hola, hello
+mundo, world
+gracias, thanks
+adios, bye
+mi, my
+nombre, name
+es, is
+Luka, Luka
+yo, i
+vivo, live
+en, in
+la, the
+segunda, second
+planta, floor
