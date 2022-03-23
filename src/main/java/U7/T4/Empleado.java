@@ -3,18 +3,15 @@ package U7.T4;
 import java.io.Serializable;
 
 public class Empleado extends Persona implements Serializable {
+    double sueldo;
 
-    private Integer sueldo;
-
-    public Empleado(String nombre, String dni, Integer edad, Double altura, Integer sueldo) {
-        super(nombre, dni, edad, altura);
+    public Empleado(String nombre, int edad, double estatura, String dni, double sueldo) {
+        super(nombre, edad, estatura, dni);
         this.sueldo = sueldo;
     }
 
     @Override
     public String toString() {
-        return "Empleado{" +
-                "sueldo=" + sueldo +
-                "} " + super.toString();
+        return super.toString() + " sueldo: " + sueldo;
     }
 }
