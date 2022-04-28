@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coches>
+    <coche año="0">
+        <marca>Audi</marca>
+        <modelo>a1</modelo>
+        <kilómetros>0</kilómetros>
+    </coche>
+    <coche año="1">
+        <marca>Audi</marca>
+        <modelo>a2</modelo>
+        <kilómetros>1</kilómetros>
+    </coche>
+    <coche año="2">
+        <marca>Audi</marca>
+        <modelo>a3</modelo>
+        <kilómetros>2</kilómetros>
+    </coche>
+    <coche año="3">
+        <marca>Audi</marca>
+        <modelo>a4</modelo>
+        <kilómetros>3</kilómetros>
+    </coche>
+    <coche año="4">
+        <marca>Audi</marca>
+        <modelo>a5</modelo>
+        <kilómetros>4</kilómetros>
+    </coche>
+    <coche año="5">
+        <marca>Audi</marca>
+        <modelo>a6</modelo>
+        <kilómetros>5</kilómetros>
+    </coche>
+    <coche año="6">
+        <marca>Audi</marca>
+        <modelo>a7</modelo>
+        <kilómetros>6</kilómetros>
+    </coche>
+    <coche año="7">
+        <marca>Audi</marca>
+        <modelo>a8</modelo>
+        <kilómetros>7</kilómetros>
+    </coche>
+    <coche año="8">
+        <marca>Audi</marca>
+        <modelo>a9</modelo>
+        <kilómetros>8</kilómetros>
+    </coche>
+    <coche año="9">
+        <marca>Audi</marca>
+        <modelo>a10</modelo>
+        <kilómetros>9</kilómetros>
+    </coche>
+</coches>
