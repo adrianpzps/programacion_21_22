@@ -52,7 +52,7 @@ public class DomDesdeCero {
       for (int i = 0; i < coches.size(); i++) {
 
         Element coche = doc.createElement("coche");
-        coche.setAttribute("año", Integer.toString(coches.get(i).getKm()));
+        coche.setAttribute("año", Integer.toString(coches.get(i).getYear()));
 
         Element marca = doc.createElement("marca");
         marca.setTextContent(coches.get(i).getMarca());
