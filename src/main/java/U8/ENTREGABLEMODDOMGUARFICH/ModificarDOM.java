@@ -120,19 +120,14 @@ public class ModificarDOM {
     NodeList nl = doc.getElementsByTagName("persona");
 
     Element newperson = doc.createElement("persona");
-
     root.appendChild(newperson);
 
     Element nombre = doc.createElement("nombre");
-
     newperson.appendChild(nombre);
-
     nombre.setTextContent("Pepe");
 
     Element edad = doc.createElement("edad");
-
     newperson.appendChild(edad);
-
     edad.setTextContent("56");
 
   }
